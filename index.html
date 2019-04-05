@@ -16,20 +16,30 @@
         </header>
 
         <section class="score-panel">
-        	<ul class="stars">
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        	</ul>
-
+        	<ul class="stars"></ul>
         	<span class="moves"></span> Moves
-
             <div class="restart">
         		<i class="fa fa-repeat"></i>
         	</div>
         </section>
 
         <ul class="deck"></ul>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="congrats">Congratulations! You completed the matching game!</p>
+        <p class="totalMoves"><b>Total Number of Moves: </b></p>
+        <p class="starRating"><b>Star Rating is: </b></p>
+        <p class="totalTime"><b>Total Time: </b></p>
+        <p><br></p>
+        <p>If you would like to play again, please exit this box by clicking on the (x)
+        or exit by clicking anywhere outside the box.</p>
+      </div>
+
     </div>
 
     <script src="js/app.js"></script>
